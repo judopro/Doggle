@@ -5,7 +5,7 @@ https://medium.com/@judopro/image-recognition-transfer-learning-great-performanc
 
 Download data set from http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar
 
-Use <b>create_validation_set.sh</b> script to create a separate validaton set randomly from within the images and move them to a separate validation folder. Just run it wuthout any parameters, make sure current images are extracted into "train" folder AND you are running this script from withint "train" folder.
+Use <b>./train/create_validation_set.sh</b> script to create a separate validaton set randomly from within the images and move them to a separate validation folder. Just run it wuthout any parameters, make sure current images are extracted into "train" folder AND you are running this script from withint "train" folder.
 
 Once validation data set is created. You can start the model to train and then predict...
 
