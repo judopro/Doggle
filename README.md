@@ -13,3 +13,8 @@ Once validation data set is created. You can start the model to train and then p
 
 <b>python doggle_cnn_v8.py --mode predict --image PATH_TO_YOUR_IMAGE.JPG</b>
 
+Your folder structure should be 
+
+./doggle_cnn_v8.py
+/train/TRAINING_IMAGES <- Run create_validation_set.sh here after download image dataset and expanding into this folder
+/validation/VALIDATION_IMAGES
